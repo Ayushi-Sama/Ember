@@ -1,0 +1,44 @@
+<nav class="menu">
+  <LinkTo @route="index" class="menu-index">
+    <h1>Ember</h1>
+  </LinkTo>
+   <div class="links">
+    <LinkTo @route="about" class="menu-about">
+      About
+    </LinkTo>
+    </div> 
+    <li class="links">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Docs
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Ember.js Guides</a></li>
+            <li><a class="dropdown-item" href="#">API Reference</a></li>
+            <li><a class="dropdown-item" href="#">CLI Guides</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Learn Ember</a></li>
+          </ul>
+        </li>
+
+        <li class="links">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Releases
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Channels</a></li>
+            <li><a class="dropdown-item" href="#">--Stable</a></li>
+            <li><a class="dropdown-item" href="#">--Beta</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Depreciations</a></li>
+          </ul>
+        </li>
+
+    <div class="right search">
+    <form class="d-flex" role="search">
+        <input class="form-control me-2 mt-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-warning me-2 mt-2" type="submit">Search</button>
+      </form>
+      </div>
+   
+  
+</nav>
